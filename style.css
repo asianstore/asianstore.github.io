@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.storeitem, .itempage {
+	background: #ddd;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	height: 200px;
+	overflow: hidden;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.storeitem img {
+	float: left;
+	margin-right: 20px;
+}
+
+.sale {
+	color: red;
+	background: yellow;
+	border: 1px solid red;
+	padding: 3px;
+}
+
+.itempage {
+	height: auto;
+}
+
+.itempage h3 {
+	display: block;
+}
+
+.itempage img {
+	width: 100%;
+}
+
+.cdnerror {
+	text-align: center;
+	border: 1px solid red;
+	width: 700px;
+	margin: 0 auto;
+}
+
+.cdnerror h1 {
+	font-size: 2em;
+	color: red;
+}
+
+@media screen and (max-width: 700px) {
+	.cdnerror {
+		width: 100%;
+	}
+	.wrapper {
+		width: 100%;
+	}
+	.storeitem img {
+		float: inherit;
+	}
+	.storeitem {
+		height: 400px;
+	}
+	.itempage {
+		height: auto;
+	}
+}
