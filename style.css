@@ -5,6 +5,19 @@ html {
 
 }
 
+.front-page{
+	height: 400px;
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+.slogan {
+	position: absolute;
+	left: 10%;
+	top: 50%;
+	
+
+}
 .wrapper {
 	width: 700px;
 	margin: 0 auto;
